@@ -15,9 +15,9 @@ print(greeting)
 
 # Don't use the reserved keyword for the name of your variable
 
-def = 'Function'
-class = 'Class'
-print(and)
-print(or)
+# def = 'Function'
+# class = 'Class'
+# print(and)
+# print(or)
 
 # Berlaku untuk nama file --> disarankan ga boleh sama dengan reserve keyword
