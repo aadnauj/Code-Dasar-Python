@@ -2,47 +2,106 @@
 
 Repository ini berisi kumpulan latihan **dasar Python** yang saya pelajari untuk memahami fundamental pemrograman.
 
-Repo ini dibuat sebagai dokumentasi proses belajar sekaligus penguatan konsep dasar seperti variable, percabangan, perulangan, function, dan struktur data di Python yang saya pelajari pada program Pijak.
+Fokus repository ini adalah membangun pemahaman konsep inti Python seperti variable, struktur data, percabangan, perulangan, dan function. Repository ini juga berisi mini project sederhana sebagai latihan penerapan logika program.
 
-Semua kode ditulis dengan pendekatan sederhana agar mudah dipahami oleh pemula.
+Project ini merupakan bagian dari proses belajar dan akan terus diperbarui seiring bertambahnya materi yang dipelajari.
 
 ---
 
 ## Materi yang Dipelajari
 
-Berikut beberapa konsep Python dasar yang dipraktikkan dalam repository ini:
+Beberapa konsep Python dasar yang dipraktikkan dalam repository ini:
 
 - Variable
-- Tipe Data
+- Tipe data
 - Operator
-- Conditional (if, else)
-- Looping (for, while)
+- Conditional (if-else)
+- Loop (for loop dan while loop)
 - Function
 - List
 - Tuple
-- Set
 - Dictionary
 - Input user
 - Dasar logika pemrograman
 
+Setiap file dibuat sederhana agar mudah dipahami oleh pemula.
+
 ---
 
-## Struktur File
+## Struktur Repository
 
-Setiap file berisi contoh penggunaan konsep Python dasar:
+```
+Code-Dasar-Python
+│
+├── basic_concept.py
+├── data_structure_list.py
+├── data_structure_tuple.py
+├── data_structure_dictionary.py
+├── pengelanan.py
+│
+└── Mini Projek
+    └── tracker_expense.py
+```
 
-| File | Deskripsi |
-|------|-----------|
-| variable.py | penggunaan variable |
-| operator.py | operator aritmatika dan logika |
-| if_else.py | percabangan kondisi |
-| loop_for.py | perulangan menggunakan for |
-| loop_while.py | perulangan menggunakan while |
-| function.py | pembuatan dan penggunaan function |
-| list.py | penggunaan list |
-| tuple.py | penggunaan tuple |
-| set.py | penggunaan set |
-| dictionary.py | penggunaan dictionary |
+Keterangan:
+
+- File di folder utama berisi latihan konsep dasar Python
+- Folder **Mini Projek** berisi mini project sederhana
+
+---
+
+## Mini Project
+
+### Expense Tracker (CLI)
+
+Program sederhana berbasis terminal untuk mencatat pengeluaran.
+
+Fitur:
+
+- menambahkan data pengeluaran
+- melihat daftar pengeluaran
+- menghitung total pengeluaran
+
+Konsep Python yang digunakan:
+
+- list
+- dictionary
+- function
+- loop
+- conditional
+- input user
+
+Mini project ini dibuat untuk melatih logika program dan memahami bagaimana beberapa konsep Python digabungkan dalam satu program sederhana.
+
+---
+
+## Cara Menjalankan Program
+
+Pastikan Python sudah terinstall di komputer.
+
+Cek versi Python:
+
+```bash
+python --version
+```
+
+Menjalankan file Python:
+
+```bash
+python nama_file.py
+```
+
+Contoh:
+
+```bash
+python basic_concept.py
+```
+
+Menjalankan mini project:
+
+```bash
+python "Mini Projek/tracker_expense.py"
+```
 
 ---
 
@@ -52,7 +111,19 @@ Tujuan pembuatan repository ini:
 
 - memahami dasar sintaks Python
 - melatih logika berpikir dalam pemrograman
-- membiasakan penggunaan GitHub untuk menyimpan hasil belajar
-- membangun fondasi sebelum mempelajari materi Python yang lebih lanjut
+- membiasakan penggunaan Git dan GitHub
+- membangun fondasi sebelum mempelajari Python lebih lanjut
+- mendokumentasikan proses belajar
 
 ---
+
+## Catatan
+
+Repository ini akan terus diperbarui dengan latihan dan mini project tambahan sebagai bagian dari proses belajar Python.
+
+---
+
+## Author
+
+GitHub:
+https://github.com/aadnauj
