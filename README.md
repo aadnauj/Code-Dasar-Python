@@ -2,7 +2,7 @@
 
 Repository ini berisi kumpulan latihan **dasar Python** yang saya pelajari untuk memahami fundamental pemrograman.
 
-Fokus repository ini adalah membangun pemahaman konsep inti Python seperti variable, struktur data, percabangan, perulangan, dan function. Repository ini juga berisi mini project sederhana sebagai latihan penerapan logika program.
+Fokus repository ini adalah membangun pemahaman konsep inti Python seperti variable, struktur data, percabangan, perulangan, dan function. Repository ini juga berisi beberapa mini project sederhana sebagai latihan penerapan logika program.
 
 Project ini merupakan bagian dari proses belajar dan akan terus diperbarui seiring bertambahnya materi yang dipelajari.
 
@@ -40,30 +40,30 @@ Code-Dasar-Python
 ├── pengelanan.py
 │
 └── Mini Projek
-    └── tracker_expense.py
+    ├── tracker_expense.py
+    ├── calculator.py
+    └── todo_list.py
 ```
 
 Keterangan:
 
 - File di folder utama berisi latihan konsep dasar Python
-- Folder **Mini Projek** berisi mini project sederhana
+- Folder **Mini Projek** berisi mini project sederhana untuk melatih logika program
 
 ---
 
 ## Mini Project
 
-### Expense Tracker (CLI)
+### 1. Expense Tracker (CLI)
 
 Program sederhana berbasis terminal untuk mencatat pengeluaran.
 
 Fitur:
-
 - menambahkan data pengeluaran
 - melihat daftar pengeluaran
 - menghitung total pengeluaran
 
-Konsep Python yang digunakan:
-
+Konsep yang digunakan:
 - list
 - dictionary
 - function
@@ -71,7 +71,45 @@ Konsep Python yang digunakan:
 - conditional
 - input user
 
-Mini project ini dibuat untuk melatih logika program dan memahami bagaimana beberapa konsep Python digabungkan dalam satu program sederhana.
+---
+
+### 2. Calculator (CLI)
+
+Program kalkulator sederhana berbasis terminal.
+
+Fitur:
+- tambah
+- kurang
+- kali
+- bagi
+- pangkat
+
+Konsep yang digunakan:
+- function
+- conditional
+- loop
+- input user
+- operator matematika
+
+---
+
+### 3. To Do List (CLI)
+
+Program sederhana untuk mencatat daftar tugas.
+
+Fitur:
+- menambahkan tugas
+- melihat daftar tugas
+- menandai tugas selesai
+- menghapus tugas
+
+Konsep yang digunakan:
+- list
+- dictionary
+- function
+- loop
+- conditional
+- manipulasi data
 
 ---
 
@@ -101,6 +139,8 @@ Menjalankan mini project:
 
 ```bash
 python "Mini Projek/tracker_expense.py"
+python "Mini Projek/calculator.py"
+python "Mini Projek/todo_list.py"
 ```
 
 ---
